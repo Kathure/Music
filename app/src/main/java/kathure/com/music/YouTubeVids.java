@@ -1,5 +1,7 @@
 package kathure.com.music;
 
+import com.google.android.youtube.player.YouTubeStandalonePlayer;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -28,6 +30,7 @@ public class YouTubeVids {
         addItem(new YouTubeVideo("x-hH_Txxzls", "Custom \"Light Box\" player with fullscreen handling"));
         addItem(new YouTubeVideo("TTh_qYMzSZk", "Custom player controls"));
     }
+
     private static void addItem(final YouTubeVideo item) {
         ITEMS.add(item);
         ITEM_MAP.put(item.id, item);
@@ -43,6 +46,7 @@ public class YouTubeVids {
         public YouTubeVideo(String id, String content) {
             this.id = id;
             this.title = content;
+
         }
 
         @Override
@@ -50,4 +54,7 @@ public class YouTubeVids {
             return title;
         }
     }
+
+
+
 }
