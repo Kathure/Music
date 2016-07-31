@@ -20,10 +20,10 @@ public class YouTubeVids {
     public static Map<String, YouTubeVideo> ITEM_MAP = new HashMap<>();
 
     static {
-        addItem(new YouTubeVideo("YykjpeuMNEk", "Open in the YouTube App"));
-        addItem(new YouTubeVideo("QtXby3twMmI", "Open in the YouTube App in fullscreen"));
+        addItem(new YouTubeVideo("YykjpeuMNEk", "Video 1"));
+        addItem(new YouTubeVideo("QtXby3twMmI", "Video 2"));
         addItem(new YouTubeVideo("TTh_qYMzSZk", "Open in the Standalone player in fullscreen"));
-        addItem(new YouTubeVideo("tttG6SdnCd4", "Open in the Standalone player in \"Light Box\" mode"));
+        addItem(new YouTubeVideo("tttG6SdnCd4", "Open in the Standalone player in fullscreen"));
         addItem(new YouTubeVideo("x-hH_Txxzls", "Open in the YouTubeFragment"));
         addItem(new YouTubeVideo("09R8_2nJtjg", "Hosting the YouTubeFragment in an Activity"));
         addItem(new YouTubeVideo("tttG6SdnCd4", "Open in the YouTubePlayerView"));
